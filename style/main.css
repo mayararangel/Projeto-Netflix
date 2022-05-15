@@ -1,0 +1,93 @@
+:root {
+    --vermelho:#e60000;
+    --preta: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body{
+    background: var(--preta);
+    font-size: 'times new roman', times, serif;
+    color: white;
+}
+
+
+header .container{
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 20px;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right:10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+.filme-principal {
+    font-size: 16px;
+    background: url('/img/capa-the-office.jpg') ;
+    
+    height: 600px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.filme-principal .descricao {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+.botao{
+    background: rgba(5, 5, 5, 0.5);
+    border:none;
+    color: white;
+
+    padding:10px 30px;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
