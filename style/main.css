@@ -56,6 +56,10 @@ header nav a:hover{
     
 }
 
+.filme-principal .container{
+    width: 70%;
+}
+
 .filme-principal .descricao {
     margin-bottom: 30px;
     margin-top: 10px;
